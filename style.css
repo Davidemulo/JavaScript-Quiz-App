@@ -480,3 +480,52 @@ button img {
 .wrong {
   background: var(--Foundation-Red-red-50, #FDE8E9);
 }
+
+
+/* RESPONSIVENESS */
+@media (max-width: 768px) {
+  .quiz-screen-content {
+    width: 100%;
+    padding: 1.5rem;
+  }
+  .start-screen-content,
+  .result-screen-content {
+    width: 90%;
+  }
+  .content-title {
+    width: 100%;
+  }
+  #question {
+    font-size: 20px;
+  }
+  .text {
+    font-size: 16px;
+  }
+}
+@media (max-width: 480px) {
+  .container {
+    padding: 16px;
+  }
+
+  .start-screen-content,
+  .result-screen-content {
+    width: 100%;
+    padding: 1.5rem;
+  }
+  button {
+    width: 100%;
+    padding: 14px;
+  }
+  .quiz-nav {
+    flex-direction: column;
+    gap: 12px;
+  }
+  #question {
+    font-size: 18px;
+  }
+  .letter {
+    width: 32px;
+    height: 32px;
+    font-size: 14px;
+  }
+}
