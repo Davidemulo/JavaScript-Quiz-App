@@ -40,6 +40,7 @@ quiz-app/
 ├── index.html
 ├── style.css
 ├── script.js
+├── Figma-screenshots
 └── assets/
     └── images
 ```
